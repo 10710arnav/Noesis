@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Routes, Route, Link, useLocation, useParams, useNavigate } from 'react-router-dom';
 import { JournalEntry, JournalEntryAnalysis, WellnessSuggestion, DoctorShareSettings, Sentiment, MeditationInteractiveProps, BreathingInteractiveProps, GenericContentInteractiveProps, DailyLogAnalysis, AmbientSoundOption, ChatMessage, ChecklistItem, Badge, MoodGraphDataPoint, EmotionScore } from './types';
